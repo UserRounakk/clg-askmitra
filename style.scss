@@ -32,16 +32,42 @@
         color: #212B36;
     }
 }
-
+#code-of-conduct{
+    margin-top: 150px;
+    font-size: 1.2rem;
+    h1{
+        margin: 40px 0;
+    }
+    ul {
+        list-style: none;
+        text-indent: -.9em;
+        width:90%;
+    }
+    li{
+        margin-bottom: 20px;
+    }
+    i{
+        color: #407BFF;
+    }
+    .text-secondary{
+        font-size: 1rem;
+    }
+}
 // Bootstrap Extra Large Breakpoint
 
 @media screen and (max-width:1200px) {
     #what-is-clg{
-        margin:10px;
+        margin:auto;
         max-width: 95vw;
         p{
             width:100%;
             margin-left: 0;
+        }
+    }
+    #code-of-conduct{
+        ul{
+            width: 100%;
+            margin-bottom: 0;
         }
     }
 }

@@ -38,14 +38,45 @@
   color: #212B36;
 }
 
+#code-of-conduct {
+  margin-top: 150px;
+  font-size: 1.2rem;
+}
+
+#code-of-conduct h1 {
+  margin: 40px 0;
+}
+
+#code-of-conduct ul {
+  list-style: none;
+  text-indent: -.9em;
+  width: 90%;
+}
+
+#code-of-conduct li {
+  margin-bottom: 20px;
+}
+
+#code-of-conduct i {
+  color: #407BFF;
+}
+
+#code-of-conduct .text-secondary {
+  font-size: 1rem;
+}
+
 @media screen and (max-width: 1200px) {
   #what-is-clg {
-    margin: 10px;
+    margin: auto;
     max-width: 95vw;
   }
   #what-is-clg p {
     width: 100%;
     margin-left: 0;
+  }
+  #code-of-conduct ul {
+    width: 100%;
+    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
