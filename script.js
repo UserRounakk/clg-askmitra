@@ -22,3 +22,23 @@ function imageNotFound(e){
     e.target.src = "images/not-found.webp";
     console.clear();  
 }
+
+let faqs = document.querySelectorAll("[data-bs-toggle='collapse']");
+// let all_faq_buttons = faqs.querySelectorAll("i");
+
+faqs.forEach(faq=>{
+    faq.addEventListener("click", faqIconChange);
+
+    function faqIconChange(e) {
+        let elem = e.target.parentElement;
+        if(elem.querySelector("i").classList.contains("fa-circle-minus")){
+            elem.querySelector("i").classList.replace("fa-circle-minus", "fa-circle-plus")
+            
+        }else{
+            if (document.querySelector(".fa-circle-minus")) {
+                document.querySelector(".fa-circle-minus").classList.replace("fa-circle-minus", "fa-circle-plus")
+            }
+            elem.querySelector("i").classList.replace("fa-circle-plus", "fa-circle-minus")
+        }
+    }
+})
