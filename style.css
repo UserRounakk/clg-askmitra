@@ -105,6 +105,14 @@
   height: auto;
 }
 
+.faqs {
+  margin-top: 100px;
+}
+
+.faqs h1 {
+  margin-bottom: 50px;
+}
+
 @media screen and (max-width: 1200px) {
   #what-is-clg {
     margin-top: 150px;
