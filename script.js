@@ -1,7 +1,6 @@
 let resources = document.getElementById('resources-tab');
 
 let resource_buttons = resources.querySelectorAll('button');
-// console.log(resource_buttons);
 resource_buttons.forEach(button=>{
     button.addEventListener("click",resourceButtonClicked)
 })
@@ -42,3 +41,8 @@ faqs.forEach(faq=>{
         }
     }
 })
+
+document.querySelector("#resource-tab-dropdown").addEventListener("change", resourceValueChange);
+function resourceValueChange(e){
+    document.getElementById(`${e.target.value}-tab`).click();
+}

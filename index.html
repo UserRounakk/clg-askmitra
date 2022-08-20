@@ -392,8 +392,14 @@
         <p class="text-secondary">
           We have collected good resources to help you begin this journey. Let’s start learning
         </p>
-        <!-- TODO: Make Tab Responsive -->
-        <ul class="nav nav-pills mb-3 justify-content-center" id="resources-tab" role="tablist">
+        <select class="form-select d-lg-none" aria-label="Default select example" id="resource-tab-dropdown">
+          <option value="design" selected>Design</option>
+          <option value="frontend">Frontend</option>
+          <option value="backend">Backend</option>
+          <option value="mobile-app">Mobile App</option>
+          <option value="cyber-security">Cyber Security</option>
+        </select>
+        <ul class="nav nav-pills mb-3 justify-content-center d-lg-block d-none" id="resources-tab" role="tablist">
           <!-- Design Tab -->
           <li class="badge rounded-pill text-bg-primary mx-2" role="presentation">
             <button class="nav-link active" id="design-tab" data-bs-toggle="pill" data-bs-target="#design" type="button"
