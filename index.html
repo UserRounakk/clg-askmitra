@@ -38,7 +38,7 @@
   </head>
   <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg pt-3">
+    <nav class="navbar navbar-expand-lg pt-3 align-items-center">
         <div class="container">
           <!-- NavBar Logo  -->
           <a href="https://www.itsnp.org" target="_blank" rel="nofollow" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none text-black" >
@@ -57,7 +57,7 @@
               <li><a href="#faqs" class="nav-link px-lg-4 link-dark">FAQs</a></li>
             </ul>   
             <!-- End Button -->
-            <div class="col-md-3">
+            <div class="col-md-3 pt-3">
               <button type="button" class="btn btn-dark me-2 rounded-pill px-4">Join Ask Mitra &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
             </div>
           </div>
@@ -1294,15 +1294,14 @@
       <!-- Resources End -->
 
       <!-- FAQs -->
-      <div class="faqs container text-center">
+      <div class="faqs container text-center" id="faqs">
         <h1>Frequently Asked Questions</h1>
-        <div id="faqs">
+        <div id="faq-questions">
       
           <!-- First Question -->
           <div class="card mb-2">
             <div class="card-body">
-              <a class="row collapsed text-decoration-none text-black text-start align-items-center" data-bs-toggle="collapse"
-                href="#questionOne">
+              <a class="row collapsed text-decoration-none text-black text-start align-items-center" data-bs-toggle="collapse" href="#questionOne">
                 <span class="col-lg-6 col-10">I’m completely beginner. Am I eligible to participate?</span>
                 <i class="fa-solid fa-circle-plus col-lg-6 col-2 text-end"></i>
               </a>
@@ -1382,69 +1381,71 @@
           <div class="col-lg-3"><img class="img-fluid" src="images/partners/partner1.webp" alt="" srcset=""></div>
         </div>
       </div>
-      
+      <!-- Organizers End -->
     </main>
-
-  <div id="footer" class="text-bg-dark">
-    <footer class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5">
-        <div class="col mb-3">
-          <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-            <img src="images/logo-dark.png" alt="itsnp logo" srcset="">&nbsp;
-          </a>
-          <br>
-          <p class="text-muted">Shankhamul, Kathmandu</p>
-          <br>
-          <div class="logos d-flex gap-3">
-            <a class="text-decoration-none" href="https://www.linkedin.com/company/itsnporg" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-xl text-light fa-linkedin"></i>&nbsp;</a>
-            <a class="text-decoration-none" href="https://www.facebook.com/itsnporg" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-xl text-light fa-facebook"></i>&nbsp;</a>
-            <a class="text-decoration-none" href="https://www.youtube.com/c/itsnporg" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-xl text-light fa-youtube"></i>&nbsp;</a>
-            <a class="text-decoration-none" href="https://www.instagram.com/itsnporg" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-xl text-light fa-instagram"></i>&nbsp;</a>
+    <!-- Footer -->
+    <div id="footer" class="text-bg-dark">
+      <footer class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              <img src="images/logo-dark.png" alt="itsnp logo" srcset="">&nbsp;
+            </a>
+            <br>
+            <p class="text-muted">Shankhamul, Kathmandu</p>
+            <br>
+            <!-- Footer Social Links -->
+            <div class="logos d-flex gap-3">
+              <a class="text-decoration-none" href="https://www.linkedin.com/company/itsnporg" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-xl text-light fa-linkedin"></i>&nbsp;</a>
+              <a class="text-decoration-none" href="https://www.facebook.com/itsnporg" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-xl text-light fa-facebook"></i>&nbsp;</a>
+              <a class="text-decoration-none" href="https://www.youtube.com/c/itsnporg" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-xl text-light fa-youtube"></i>&nbsp;</a>
+              <a class="text-decoration-none" href="https://www.instagram.com/itsnporg" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-xl text-light fa-instagram"></i>&nbsp;</a>
+            </div>
+          </div>
+      
+          <div class="col mb-3">
+      
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
           </div>
         </div>
-    
-        <div class="col mb-3">
-    
-        </div>
-    
-        <div class="col mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
-        </div>
-    
-        <div class="col mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
-        </div>
-    
-        <div class="col mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
-        </div>
-      </div>
-      <p class="text-center">
-        &copy; Copyright 2022 <a href="https://www.itsnp.org" target="_blank" rel="noopener noreferrer">IT Students of Nepal</a>. All rights reserved.
-      </p>
-    </footer>
-  </div>
+        <p class="text-center">
+          &copy; Copyright 2022 <a href="https://www.itsnp.org" target="_blank" rel="noopener noreferrer">IT Students of Nepal</a>. All rights reserved.
+        </p>
+      </footer>
+    </div>
+    <!-- Footer End -->
 
 
     <!-- Scripts -->
