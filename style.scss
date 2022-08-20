@@ -18,3 +18,30 @@
     top: 20%;
     left: 35%
 }
+
+#what-is-clg{
+    background-color: #F1F7FF;
+    border-radius: 20px;
+    h1{
+        margin: 0 0 20px 0;
+    }
+    p{
+        width:50%;
+        margin-left: 25%;
+        font-size: 1.2rem;
+        color: #212B36;
+    }
+}
+
+// Bootstrap Extra Large Breakpoint
+
+@media screen and (max-width:1200px) {
+    #what-is-clg{
+        margin:10px;
+        max-width: 95vw;
+        p{
+            width:100%;
+            margin-left: 0;
+        }
+    }
+}
