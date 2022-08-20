@@ -18,6 +18,9 @@
     top: 20%;
     left: 35%
 }
+.tab-secondary {
+    background-color: #F0F0F0;
+}
 
 #what-is-clg{
     background-color: #F1F7FF;
@@ -53,11 +56,39 @@
         font-size: 1rem;
     }
 }
+
+#resources{
+    margin-top: 150px;
+    .text-secondary{
+        font-size: 1.3rem;
+    }
+    .img-container{
+        width: 50%;
+        // height: 50%;
+        margin-left: 25%;
+    }
+}
+.col-md-3{
+    margin-bottom: 20px;
+}
+.tool-content{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    img{
+        width: 20%;
+        height: auto;
+    }
+}
+
 // Bootstrap Extra Large Breakpoint
 
 @media screen and (max-width:1200px) {
     #what-is-clg{
-        margin:auto;
+        margin-top:150px;
         max-width: 95vw;
         p{
             width:100%;
