@@ -1,0 +1,24 @@
+.theme {
+  color: #407BFF;
+}
+
+.bg-theme {
+  background-color: #407BFF;
+  color: white;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.arrow-position {
+  top: 30%;
+  left: 40%;
+}
+
+.atom-position {
+  top: 20%;
+  left: 35%;
+}
+/*# sourceMappingURL=style.css.map */
