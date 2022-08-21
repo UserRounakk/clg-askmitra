@@ -23,7 +23,6 @@ function imageNotFound(e){
 }
 
 let faqs = document.querySelectorAll("[data-bs-toggle='collapse']");
-// let all_faq_buttons = faqs.querySelectorAll("i");
 
 faqs.forEach(faq=>{
     faq.addEventListener("click", faqIconChange);
